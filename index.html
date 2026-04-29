@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -116,4 +116,190 @@
     © 2026 <span>Yuli</span> — Built with HTML, CSS, and a refusal to be boring.
   </footer>
 
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YU LI | Full Stack Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>YU_LI.LOG</h1>
+
+    <p style="max-width:720px; margin-top:1rem; color:#cbd5f5;">
+      Full Stack Engineer focused on building high-concurrency, data-driven systems with strong emphasis on performance, scalability, and reliability in production environments.
+    </p>
+
+    <div style="margin-top:2.5rem; display:flex; gap:20px; justify-content:center; flex-wrap:wrap;">
+      <a href="#resume"
+        style="padding:14px 28px; border-radius:30px; background:linear-gradient(90deg,var(--primary),var(--secondary)); color:#000; font-weight:600; text-decoration:none;">
+        Quick Resume
+      </a>
+
+      <a href="#projects"
+        style="padding:14px 28px; border-radius:30px; border:1px solid rgba(255,255,255,0.3); color:#fff; text-decoration:none;">
+        Systems & Projects
+      </a>
+
+      <a href="#work"
+        style="padding:14px 28px; border-radius:30px; border:1px solid rgba(255,255,255,0.3); color:#fff; text-decoration:none;">
+        Production Experience
+      </a>
+
+      <a href="#about"
+        style="padding:14px 28px; border-radius:30px; border:1px solid rgba(255,255,255,0.3); color:#fff; text-decoration:none;">
+        About
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll">▼ Scroll</div>
+</header>
+
+<!-- RESUME -->
+<section id="resume">
+  <h2>Quick Resume</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Profile</h3>
+      <p>
+        B.Sc. Computer Science — University of Manitoba (2025)
+        <br><br>
+        Full Stack Engineer with 2+ years of experience building distributed backend systems and frontend applications
+        in production environments serving large-scale user traffic.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Core Engineering Stack</h3>
+      <p>
+        Java (Spring Boot), Node.js, TypeScript, React, Vue.js<br>
+        Kafka, RESTful APIs, JWT, RBAC<br>
+        MySQL, Redis, indexing & query optimization<br>
+        Docker, Nginx, AWS, CI/CD pipelines
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Engineering Focus</h3>
+      <p>
+        High-concurrency system design<br>
+        Latency optimization & caching strategy<br>
+        Distributed event-driven architecture<br>
+        Backend reliability & observability<br>
+        Clean API design for large-scale systems
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Systems & Projects</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>School Management System (Full Stack Platform)</h3>
+      <p><strong>Stack:</strong> Spring Boot, Vue.js, MySQL, JWT, Docker, Nginx</p>
+      <p>
+        Designed a role-based (RBAC) multi-tenant education management system supporting admin, teacher, and student workflows.
+        Implemented stateless authentication using JWT to eliminate session overhead and improve scalability.
+        <br><br>
+        Optimized MySQL schema design and indexing strategy, reducing API response latency by ~30% under concurrent access.
+        Deployed using Dockerized services on Aliyun ECS with Nginx reverse proxy, enabling stable production-like environment setup.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>AI-Assisted English Learning System</h3>
+      <p><strong>Stack:</strong> OpenAI API, Node.js, React, Java</p>
+      <p>
+        Built an adaptive learning system based on input-level calibration (i+1 principle), dynamically adjusting content difficulty
+        based on user performance signals.
+        <br><br>
+        Transforms real-world content (news/articles) into structured learning material with personalized progression tracking.
+        Designed backend orchestration layer to manage API calls, caching responses, and controlling cost-efficient AI usage.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <h2>Production Experience</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Full Stack Developer</h3>
+      <p><strong>IHG Hotels & Resorts</strong> | May 2025 – Present (Remote)</p>
+      <p>
+        • Built and optimized high-concurrency backend services in Java & Node.js handling real-time inventory across 6,000+ properties<br>
+        • Implemented caching strategies + in-memory optimization to reduce API latency by 15% during peak booking traffic<br>
+        • Developed React-based operational interfaces for front-desk workflows, reducing check-in processing time by ~20%<br>
+        • Maintained 99.9% uptime for critical booking systems via monitoring, logging, and resilient error handling strategies<br>
+        • Worked closely with product/ops teams to translate business logic into scalable distributed system design
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Junior Web Developer</h3>
+      <p><strong>Data Front</strong> | May 2024 – Aug 2024</p>
+      <p>
+        • Developed reusable React component architecture for financial reporting platform (LiveDoc system)<br>
+        • Refactored legacy frontend into modular structure, improving maintainability and reducing load time by ~20%<br>
+        • Collaborated with design/product teams to standardize UI system used across multiple enterprise clients<br>
+        • Improved rendering performance through component memoization and state optimization techniques
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Java Developer</h3>
+      <p><strong>Skip</strong> | May 2023 – Aug 2023</p>
+      <p>
+        • Designed Kafka-based asynchronous processing pipeline for delivery tracking events<br>
+        • Increased message throughput by 25% without additional infrastructure cost<br>
+        • Optimized Spring Boot order-processing services, reducing API latency by 12% for 50,000+ daily users<br>
+        • Built 150+ JUnit/Mockito tests achieving ~95% coverage, identifying pre-production performance bottlenecks
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About</h2>
+
+  <p style="max-width:760px; line-height:1.9; color:#d1d5db;">
+    I build systems that don’t break under load.
+    <br><br>
+    Most of my work sits between backend performance, distributed systems design, and frontend efficiency.
+    I care more about latency curves and failure modes than fancy frameworks.
+    <br><br>
+    If a system scales cleanly, behaves predictably under stress, and doesn’t surprise you in production — that’s good engineering.
+  </p>
+
+</section>
+
+<footer>
+  © 2026 YU LI — Built with systems thinking, not template thinking.
+</footer>
+
+</body>
 </html>
